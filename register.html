@@ -1,11 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Join the House of Willow</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Registeration Page</h1>
+
+<div class="register-container">
+
+<h1>Join the House of Willow</h1>
+<p class="register-subtext">Create your account and begin your chronicle</p>
+
+<form class="register-form">
+
+<label>Full Name</label>
+<input type="text" id="name" placeholder="Enter your name" required>
+
+<label>Email</label>
+<input type="email" id="username" placeholder="Enter your email" required>
+
+<label>Password</label>
+<input type="password" id="password" placeholder="Create password" required>
+
+<button type="button" onclick="registerUser()">Create account</button>
+
+</form>
+
+<p class="login-link">
+Already part of Willow?
+<a href="login.html">Enter Willow</a>
+</p>
+
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>

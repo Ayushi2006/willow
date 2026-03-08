@@ -1,11 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Enter Willow</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <h1>Login Page</h1>
+
+<div class="login-container">
+
+    <h1>Enter Willow</h1>
+    <p class="login-subtext">Return to your journal and memories</p>
+
+    <form class="login-form" onsubmit="loginUser(event)">
+
+        <label>Email</label>
+        <input type="email" id="username" placeholder="Enter your email" required>
+
+        <label>Password</label>
+        <input type="password" id="password" placeholder="Enter your password" required>
+
+        <button type="submit">Enter</button>
+
+    </form>
+
+    <p class="login-register">
+        New to Willow?  
+        <a href="register.html">Join the House</a>
+    </p>
+
+</div>
+
+<script src="script.js"></script>
+
 </body>
 </html>

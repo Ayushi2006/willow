@@ -10,7 +10,16 @@ body{
   font-weight: bold;
   font-style: italic;
   text-align: center;
-  background: linear-gradient(to right,  #ceac82, #fae3c5, #ceac82);
+  background: linear-gradient(to right,  #c59356, #fae3c5, #c59356);
+}
+
+img{
+    
+    transition: transform 1s;
+}
+img:hover{
+    
+    transform: translateX(-8px) rotate(9deg);
 }
 
 li{
@@ -54,8 +63,9 @@ section div h3{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px;
+    padding: 2px;
     border-bottom: 1px solid #a67c52;
+    background-color: #c5935662;
 }
 
 .navlinks{
@@ -67,8 +77,13 @@ section div h3{
 }
 
 .logo img{
+    transition: transform 0.3s;
     width: 300px;
     height: auto;
+}
+
+.logo img:hover{
+    transform: translateY(3px);
 }
 
 .navlinks a{
@@ -116,7 +131,7 @@ section div h3{
     letter-spacing: 1px;
     color: #4b2e1e;
     text-decoration: none;
-    border: 2px solid #c9a46c;
+    border: 2px solid #e6a0309d;
     background-color: transparent;
     border-radius: 4px;
     transition: all 0.3s ease;
@@ -161,7 +176,8 @@ section div h3{
 
 /* FOOTER */
 footer{
-    background-color:#e6c092;
+    background-color:#c5935662;;
+    border: 1px solid goldenrod;
     text-align:center;
     display:grid;
     gap:20px;
@@ -213,4 +229,239 @@ footer p{
     font-style:italic;
     font-size:18px;
     margin-top:10px;
+}
+
+
+/* LOGIN PAGE */
+
+/* container */
+
+.login-container{
+    width:400px;
+    margin:120px auto;
+    padding:40px;
+    background:#fffaf3;
+    border:1px solid #c9a46c;
+    text-align:center;
+    border-radius:6px;
+}
+
+/* heading */
+
+.login-container h1{
+    margin-bottom:10px;
+    color:#4b2e1e;
+}
+
+.login-subtext{
+    margin-bottom:30px;
+    color:#7a5c46;
+}
+
+/* form */
+
+.login-form{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+}
+
+.login-form label{
+    margin-top:15px;
+    margin-bottom:5px;
+    color:#4b2e1e;
+}
+
+.login-form input{
+    padding:10px;
+    border:1px solid #c9a46c;
+    border-radius:4px;
+    font-family:'Playfair Display', serif;
+}
+
+/* login button spacing */
+
+.login-form .button{
+    margin-top:25px;
+}
+
+/* register link */
+
+.login-register{
+    margin-top:20px;
+}
+
+.login-register a{
+    color:#4b2e1e;
+    text-decoration:none;
+    font-weight:600;
+}
+
+/* REGISTER PAGE */
+
+.register-container{
+    width:420px;
+    margin:120px auto;
+    padding:40px;
+    background:#fffaf3;
+    border:1px solid #c9a46c;
+    border-radius:6px;
+    text-align:center;
+}
+
+.register-container h1{
+    color:#4b2e1e;
+    margin-bottom:10px;
+}
+
+.register-subtext{
+    margin-bottom:30px;
+    color:#7a5c46;
+}
+
+/* form */
+
+.register-form{
+    display:flex;
+    flex-direction:column;
+    text-align:left;
+}
+
+.register-form label{
+    margin-top:15px;
+    margin-bottom:5px;
+    color:#4b2e1e;
+}
+
+.register-form input{
+    padding:10px;
+    border:1px solid #c9a46c;
+    border-radius:4px;
+    font-family:'Playfair Display', serif;
+}
+
+/* button spacing */
+
+.register-form .button{
+    margin-top:25px;
+}
+
+/* login link */
+
+.login-link{
+    margin-top:20px;
+}
+
+.login-link a{
+    color:#4b2e1e;
+    text-decoration:none;
+    font-weight:600;
+}
+
+/* JOURNAL PAGE */
+/* FORM CONTAINER */
+
+.journal-form{
+    background:#fdfaf3;
+    width:400px;
+    margin:120px auto;
+    margin-top: 20px;
+    padding:40px;
+    border:1px solid #d4b483;
+    border-radius:8px;
+
+    box-shadow:0 10px 25px rgba(0,0,0,0.15);
+}
+
+
+/* HEADING */
+
+h1{
+    text-align:center;
+    margin-bottom:30px;
+    font-weight:600;
+}
+
+
+/* LABELS */
+
+label{
+    display:block;
+    margin-top:15px;
+    margin-bottom:5px;
+    font-weight:500;
+}
+
+
+/* INPUT + SELECT + TEXTAREA */
+
+input,
+select,
+textarea{
+
+    width:100%;
+    padding:10px;
+
+    border:1px solid #c9a46c;
+    border-radius:4px;
+
+    font-family:serif;
+    font-size:15px;
+
+    background:#fffdf8;
+}
+
+
+/* TEXTAREA */
+
+textarea{
+    resize:vertical;
+}
+
+
+/* BUTTONS */
+
+button{
+
+    margin-top:20px;
+    margin-right:10px;
+
+    padding:10px 22px;
+
+    border:2px solid #c9a46c;
+    background:transparent;
+
+    font-family:'Playfair Display', serif;
+    letter-spacing:1px;
+
+    color:#4b2e1e;
+    cursor:pointer;
+
+    transition:all 0.3s ease;
+}
+
+
+/* BUTTON HOVER */
+
+button:hover{
+
+    background:#4b2e1e;
+    color:#f5efe6;
+
+    transform:translateY(-2px);
+    box-shadow:0 6px 15px rgba(0,0,0,0.15);
+}
+
+/* scrapbook button in journal page */
+.btn_space{
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.entry{
+background:#f5e6c8;
+padding:15px;
+margin:15px;
+border-left:4px solid #c9a46c;
+font-family:serif;
 }
