@@ -27,7 +27,7 @@ The homepage design is complete and additional features such as the journal, scr
 ## 🛠 Tech Stack
 
 * **HTML5**
-* **CSS3**
+* **CSS**
 * **Google Fonts (Playfair Display)**
 
 ---
