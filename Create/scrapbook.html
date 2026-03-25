@@ -4,8 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>scrapbook</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
 <body>
-    
+<section>
+    <h1> My Scrapbook</h1>
+    <div class="collage">
+        
+        <div class="photo top">
+            <input type="file" accept="image/*" onchange="previewImage(event, 'img1')">
+            <img id="img1">
+            <p contenteditable="true">Write a memory...</p>
+        </div>
+
+        <div class="photo left">
+            <input type="file" accept="image/*" onchange="previewImage(event, 'img2')">
+            <img id="img2">
+            <p contenteditable="true">Write a memory...</p>
+        </div>
+        
+        <div class="photo center">
+            <input type="file" accept="image/*" onchange="previewImage(event, 'img3')">
+            <img id="img3">
+            <p contenteditable="true">The heart of this memory...</p>
+        </div>
+        
+        <div class="photo right">
+            <input type="file" accept="image/*" onchange="previewImage(event, 'img4')">
+            <img id="img4">
+            <p contenteditable="true">Write a memory...</p>
+        </div>
+
+        <div class="photo bottom">
+            <input type="file" accept="image/*" onchange="previewImage(event, 'img5')">
+            <img id="img5">
+            <p contenteditable="true">Write a memory...</p>
+        </div>
+    </div>
+</section>
+
+<script src="../script.js"></script>
 </body>
 </html>
