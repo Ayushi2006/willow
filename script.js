@@ -52,11 +52,11 @@ function saveEntry(event) {
   displayEntries();
 }
 
-function logoutUser(){
-    localStorage.removeItem("username");
-    localStorage.removeItem("password");
-    alert("Logout successful!");
-    window.location.href="login.html";
+function logoutUser() {
+  localStorage.removeItem("username");
+  localStorage.removeItem("password");
+  alert("Logout successful!");
+  window.location.href = "login.html";
 }
 
 // Scrapbook page

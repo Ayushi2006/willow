@@ -1,47 +1,55 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the House of Willow</title>
 
-<title>Join the House of Willow</title>
+    <link rel="stylesheet" href="style.css" />
 
-<link rel="stylesheet" href="style.css">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&display=swap" rel="stylesheet">
-</head>
+  <body>
+    <div class="register-container">
+      <h1>Join the House of Willow</h1>
+      <p class="register-subtext">
+        Create your account and begin your chronicle
+      </p>
 
-<body>
+      <form class="register-form">
+        <label>Full Name</label>
+        <input type="text" id="name" placeholder="Enter your name" required />
 
-<div class="register-container">
+        <label>Email</label>
+        <input
+          type="email"
+          id="username"
+          placeholder="Enter your email"
+          required
+        />
 
-<h1>Join the House of Willow</h1>
-<p class="register-subtext">Create your account and begin your chronicle</p>
+        <label>Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Create password"
+          required
+        />
 
-<form class="register-form">
+        <button type="button" onclick="registerUser()">Create account</button>
+      </form>
 
-<label>Full Name</label>
-<input type="text" id="name" placeholder="Enter your name" required>
+      <p class="login-link">
+        Already part of Willow?
+        <a href="login.html">Enter Willow</a>
+      </p>
+    </div>
 
-<label>Email</label>
-<input type="email" id="username" placeholder="Enter your email" required>
-
-<label>Password</label>
-<input type="password" id="password" placeholder="Create password" required>
-
-<button type="button" onclick="registerUser()">Create account</button>
-
-</form>
-
-<p class="login-link">
-Already part of Willow?
-<a href="login.html">Enter Willow</a>
-</p>
-
-</div>
-
-<script src="script.js"></script>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
