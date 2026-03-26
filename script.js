@@ -56,7 +56,7 @@ function logoutUser() {
   localStorage.removeItem("username");
   localStorage.removeItem("password");
   alert("Logout successful!");
-  window.location.href = "login.html";
+  window.location.href = "/login.html";
 }
 
 // Scrapbook page
