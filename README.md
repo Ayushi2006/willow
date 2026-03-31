@@ -35,6 +35,8 @@ Willow/
 
 ├── style.css (Main styling)
 
+├── script.js
+
 ├── Create/
 
 │ ├── journal.html
