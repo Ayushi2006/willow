@@ -18,7 +18,7 @@ It is designed to be a calm place where users can write reflections, preserve me
 
 * **HTML5**
 * **CSS**
-* **JavaScript**
+* **JavaScript** 
 * **Google Fonts (Playfair Display)**
 
 ---
