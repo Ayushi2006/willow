@@ -9,7 +9,7 @@ It is designed to be a calm place where users can write reflections, preserve me
  
 * 🖋 Digital Journal – Write and store personal reflections 
 * 📖 Scrapbook – Save memories with images and notes 
-* 🌿 Vintage-Inspired Interface – Elegant typography and warm colors
+* 🌿 Vintage-Inspired Interface – Elegant typography and warm colors 
 * 📱 Clean and minimal layout for comfortable writing
 
 ---
