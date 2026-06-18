@@ -1,4 +1,4 @@
-# 🌿 Willow — Digital Journal & Scrapbook
+<center># 🌿 Willow — Digital Journal & Scrapbook</center>
  
 Willow is an aesthetic digital journaling space inspired by vintage diaries and traditional scrapbooks. 
 It is designed to be a calm place where users can write reflections, preserve memories, and collect meaningful moments.   
