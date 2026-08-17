@@ -16,7 +16,7 @@ It is designed to be a calm place where users can write reflections, preserve me
 
 ## 🛠 Tech Stack
 
-* **HTML5**
+* **HTML5**   
 * **CSS**
 * **JavaScript** 
 * **Google Fonts (Playfair Display)**
