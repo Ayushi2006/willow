@@ -5,7 +5,7 @@ It is designed to be a calm place where users can write reflections, preserve me
 
 ---    
      
-## ✨ Features
+## ✨ Features   
   
 * 🖋 Digital Journal – Write and store personal reflections 
 * 📖 Scrapbook – Save memories with images and notes 
