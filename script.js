@@ -52,7 +52,7 @@ function saveEntry(event) {
 	displayEntries();
 }
 
-function logoutUser() {
+function logoutUser() { 
 	localStorage.removeItem("username");
 	localStorage.removeItem("password");
 	alert("Logout successful!");
