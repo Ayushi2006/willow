@@ -46,7 +46,3 @@ Willow/
 └── images/ (Website assets)
 
 ---
-
-## 🌙 Author
-
-Created by **Ayushi**
