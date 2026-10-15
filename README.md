@@ -13,7 +13,7 @@ It is designed to be a calm place where users can write reflections, preserve me
 * 📱 Clean and minimal layout for comfortable writing
 
 ---
-
+   
 ## 🛠 Tech Stack
 
 * **HTML5**   
