@@ -5,16 +5,16 @@ It is designed to be a calm place where users can write reflections, preserve me
 
 ---       
       
-## ✨ Features   
+## Features   
     
-* 🖋 Digital Journal – Write and store personal reflections 
-* 📖 Scrapbook – Save memories with images and notes     
-* 🌿 Vintage-Inspired Interface – Elegant typography and warm colors 
-* 📱 Clean and minimal layout for comfortable writing
+*  Digital Journal – Write and store personal reflections 
+*  Scrapbook – Save memories with images and notes     
+*  Vintage-Inspired Interface – Elegant typography and warm colors 
+*  Clean and minimal layout for comfortable writing
 
 ---
    
-## 🛠 Tech Stack
+## Tech Stack
 
 * **HTML5**   
 * **CSS**
@@ -23,7 +23,7 @@ It is designed to be a calm place where users can write reflections, preserve me
 
 ---
  
-## 📂 Project Structure
+## Project Structure
 
 Willow/
 
